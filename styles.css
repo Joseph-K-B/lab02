@@ -1,0 +1,46 @@
+main {
+    height: 280px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr
+    box-shadow: 2px 2px 10px 2px;
+    border-radius: 20px;
+}
+h1,h2{
+    margin:0
+}
+h1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.top {
+    background-color: red;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middle{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+
+}
+.bottom {
+    height: 300%;
+    background-color: red;
+    border-radius: 0px 0px 20px 20px;
+    
+}
