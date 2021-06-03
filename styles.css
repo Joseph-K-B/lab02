@@ -35,11 +35,18 @@ h2{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    height:100px;
 
 
 }
 .bottom {
-    height: 300%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: fantasy;
+    height: 80%;
     background-color: red;
     border-radius: 0px 0px 20px 20px;
     
